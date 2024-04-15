@@ -75,7 +75,7 @@ export default function App() {
             hidden={hidden}
           />
           <Stack.Navigator initialRouteName="Login2">
-            <Stack.Screen
+            {/* <Stack.Screen
               name="Music1"
               component={MusicScreen}
               options={{
@@ -85,7 +85,7 @@ export default function App() {
                 },
                 headerLeft: null,
               }}
-            />
+            /> */}
             <Stack.Screen
               name="Getting1"
               component={Getting1}
